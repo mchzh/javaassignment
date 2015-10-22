@@ -1,3 +1,12 @@
+Assignment 4 review feedback:
+
+Your code is good, few comments as follows:
+1. Make your assignment clean. If you do not need something inside, remove it, please not comment inside.
+2. Do not catch Exception super class and print out array out of boundary, not all exceptions all array out of boundary.
+3. Do not put non-English characters in your code.
+Good job, keep going.
+=================
+
 1.file name: ZeroOfConstant.java
              ZeroOfConstantTest.java
 

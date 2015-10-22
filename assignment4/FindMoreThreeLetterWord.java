@@ -43,6 +43,7 @@ public class FindMoreThreeLetterWord {
 		int chcount=1;
 		while(x < total){
 			ch=sCheck.charAt(x);
+			// what do you mean here? if ch is '?', '!', ':' so on, do you need to ignore?
 			if(ch != ' ' && ch != '.' && ch != ','){
 				if(x==total-1){
 					end=x;
