@@ -26,7 +26,8 @@ public class PyramidLine {
 			  //str.split(",");
 			  //reversewordofsentence(str);
 			  makepyramidline(sum);
-		  } catch (Exception e) {  
+		  } catch (Exception e) {
+		  		// why do you think all exceptions you meet is ArrayIndexOutOfBoundException?
 		      System.out.println("array out of boudary");// catch ArrayIndexOutOfBoundException£¬because index add more than length 
 		  }  
 		}  

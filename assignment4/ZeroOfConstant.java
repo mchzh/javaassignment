@@ -15,12 +15,16 @@ package zero;
 import java.util.Scanner; 
 
 public class ZeroOfConstant {
+	// be careful of the indentation
 	public static void main(String[] args) {  
           int[] array={1,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0};
 
 		  try {  
 			  //ConstantZero(array);
-		  } catch (Exception e) {  
+		  } catch (Exception e) {
+		  	// why do you catch the exception here?
+		  	// actually arrayindexoutofboundexception is the runtime exception, if you meet this, it means
+		  	// your program is wrong. In your code you should never catch such exception.
 		      System.out.println("array out of boudary");// catch ArrayIndexOutOfBoundException£¬because index add more than length 
 		  }  
 		}  
@@ -41,6 +45,7 @@ public class ZeroOfConstant {
 				}else{
 					String sZero="";
 					index=num;
+					// why you don't check if num + 1 is out of boundary?
 					if(array[num+1]==0){
 						while(array[num]==0 && (num+1 <= total)){
 							sZero=sZero+array[num];

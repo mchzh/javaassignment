@@ -23,6 +23,7 @@ public class ReverseWordOfSentence {
 
 	public static void main(String[] args) { 
 		  scan = new Scanner(System.in);
+		  // please not put such strange characters in your comments. 
 		  System.out.print("Input a  string £º");  
 
 
