@@ -2,6 +2,7 @@ class Person implements Comparable<Object> {
 	public static void main(String[] args){
 		System.out.println("Hello World!");
 	}
+	// first character should be lower case.
 	private int Id;
 	private String Firstname;
 	private String Lastname;

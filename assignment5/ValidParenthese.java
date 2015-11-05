@@ -8,7 +8,8 @@ public class ValidParenthese {
 		flag = isValid(model);
 		System.out.println("Single number result -> " + flag);
 	}
-	
+
+	// if the input string is "]", your output is true. -5
 	public boolean isValid(String s) {
 		HashMap<Character,Character> map = new HashMap<Character,Character>();
 		map.put('(', ')');
