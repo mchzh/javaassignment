@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class StrMatchPattern {
 	
+	// if the input is: "aaaa", "dog cat cat dog", your output is true. -5.
 	public boolean wordPattern(String pattern, String str) {
 		  String[] sarray = str.split(" ");
 		  int plen = pattern.length();
