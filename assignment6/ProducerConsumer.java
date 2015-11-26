@@ -11,6 +11,9 @@ public class ProducerConsumer {
 }
 
 class ProcuctQueue {
+    // It's OK to use semaphore, but in the real situation,
+    // it's not produce 1 and then consume 1.
+    // You should allow some stocks in your system.
     // We must start with Producer semaphore
     static Semaphore semProd = new Semaphore(1);
     // Start with consumer semaphore unavailable.
